@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Sets the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures proper rendering and touch zooming on mobile devices -->
+    <title>Realistic Resume</title> <!-- Sets the title of the webpage -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links to the external CSS file for styling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Links to Font Awesome for icons -->
+</head>
+<body>
+    <div class="container"> <!-- Container for the card -->
+        <div class="card"> <!-- Card element that will flip -->
+            <!-- Front Side -->
+            <div class="front"> <!-- Front side of the card -->
+                <h2>Pratik Barmukh</h2> <!-- Name of the individual -->
+                <p>9004611688 | pratik12mukh@gmail.com | Mumbai, Maharashtra</p> <!-- Contact information -->
+                <div class="social-icons"> <!-- Social media icons -->
+                    <a href="https://www.linkedin.com/in/pratik-barmukh-48501b148" target="_blank"><i class="fab fa-linkedin"></i></a> <!-- LinkedIn profile link -->
+                    <a href="https://github.com/Pratik12mukh" target="_blank"><i class="fab fa-github"></i></a> <!-- GitHub profile link -->
+                    <a href="mailto:pratik12mukh@gmail.com"><i class="fas fa-envelope"></i></a> <!-- Email link -->
+                </div>
+                <div class="section" id="summary"> <!-- Summary section -->
+                    <h3>Summary</h3> <!-- Section title -->
+                    <p>Dedicated and results-driven Data Analyst and Data Scientist with a proven track record in requirement analysis, software development, and database management. With 3 years of extensive experience, I excel in collecting, cleansing, and interpreting complex data sets. A proactive and self-directed professional, I possess a natural aptitude for problem-solving and exhibit a strong cross-functional understanding of information technology and business processes.</p> <!-- Summary content -->
+                </div>
+                <div class="section" id="experience"> <!-- Experience section -->
+                    <h3>Experience</h3> <!-- Section title -->
+                    <div class="experience"> <!-- Experience details -->
+                        <h4>HUDL SPORTSTECH INDIA | Mumbai</h4> <!-- Job title and location -->
+                        <p>Database Operations Analyst | 07/2021 - 10/2022</p> <!-- Job role and duration -->
+                        <ul> <!-- List of responsibilities -->
+                            <li>Data Project Operation Support</li>
+                            <li>Managed and maintained the "Wyscout database," catering to the intricate data requirements of major sports tournaments, ensuring seamless project execution and data-driven decision-making.</li>
+                            <li>Spearheaded database infrastructure management, designing and implementing efficient data storage solutions for optimized performance and data integrity.</li>
+                            <li>Collaborated with cross-functional stakeholders, coordinating project timelines, and resource allocation, and leveraging a data-driven approach. Championed data analysis and insights to drive successful project decision-making and contribute to organizational success.</li>
+                        </ul>
+                        <h4>HUDL SPORTSTECH INDIA | Pune</h4> <!-- Job title and location -->
+                        <p>SPORT DATA ANALYST | 07/2019 - 07/2021</p> <!-- Job role and duration -->
+                        <ul> <!-- List of responsibilities -->
+                            <li>Applied technical expertise in statistical analysis, data mining, and visualization to extract actionable insights from sports data.</li>
+                            <li>Collaborated closely with coaches, scouts, and management teams, delivering advanced statistics, performance reports, and strategic recommendations.</li>
+                            <li>Empowered teams and athletes with data-driven decision-making, optimizing strategies and enhancing sports performance for a competitive edge.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section" id="skills"> <!-- Skills section -->
+                    <h3>Skills</h3> <!-- Section title -->
+                    <p>SQL, Database Management, Data Visualization, Data Mining and Exploration, Data Manipulation, Natural Language Processing, Programming (Python, C), Advanced Statistical Analysis, Data Quality Assurance</p> <!-- List of skills -->
+                </div>
+                <div class="section" id="education"> <!-- Education section -->
+                    <h3>Education</h3> <!-- Section title -->
+                    <div class="education"> <!-- Education details -->
+                        <h4>International Institute of Information Technology | Pune</h4> <!-- Institution name and location -->
+                        <p>Information Technology | 07/2019</p> <!-- Degree and graduation date -->
+                        <p>Bachelor of Engineering GPA: 7.16</p> <!-- Degree details -->
+                        <h4>Vidyalankar School of Information Technology | Mumbai</h4> <!-- Institution name and location -->
+                        <p>Information Technology | 07/2016</p> <!-- Degree and graduation date -->
+                        <p>Diploma in Information Technology GPA: 80.20</p> <!-- Degree details -->
+                    </div>
+                </div>
+                <div class="section" id="certificates"> <!-- Certificates section -->
+                    <h3>Certificates</h3> <!-- Section title -->
+                    <p>Masters in Data Science, Nasscom Accredited (Nov 2022 - Mar 2023)</p> <!-- Certificate details -->
+                </div>
+                <button class="flip-button" onclick="flipCard()">Flip to Projects</button> <!-- Button to flip the card -->
+            </div>
+
+            <!-- Back Side -->
+            <div class="back"> <!-- Back side of the card -->
+                <h2>Projects</h2> <!-- Section title -->
+                <div class="section" id="projects"> <!-- Projects section -->
+                    <h3>Projects</h3> <!-- Section title -->
+                    <ul> <!-- Project list -->
+                        <li><a href="https://github.com/Pratik12mukh/Football-Data-Analysis" target="_blank">Football Data Analysis</a></li> <!-- Project 1 -->
+                        <li><a href="https://github.com/Pratik12mukh/Olympic-Teams-Analysis" target="_blank">Olympic Teams Analysis</a></li> <!-- Project 2 -->
+                        <li><a href="https://github.com/Pratik12mukh/Parkinson-s-Disease-Detection" target="_blank">Parkinson's Disease Detection</a></li> <!-- Project 3 -->
+                        <li><a href="https://github.com/Pratik12mukh/PDF-Entity-Recognition" target="_blank">PDF Entity Recognition</a></li> <!-- Project 4 -->
+                    </ul>
+                </div>
+                <button class="flip-button" onclick="flipCard()">Flip to Resume</button> <!-- Button to flip the card -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Links to the external JavaScript file for functionality -->
+</body>
+</html>
